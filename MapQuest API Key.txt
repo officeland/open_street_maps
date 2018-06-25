@@ -1,0 +1,11 @@
+since September 15, 2015 MapQuest API Key is required to access OSM service:
+
+http://forums.osclass.org/themes-26/receive-error-code-when-want-to-edit-and-update-listing/
+
+* * *
+
+Register and get your free API key at:
+
+https://developer.mapquest.com/
+
+* * *
