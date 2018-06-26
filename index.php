@@ -60,7 +60,9 @@ function osm_insert_geo_location($item) {
 			$lng = $mpl['lon'];
 		}
 	}
+
 	ItemLocation::newInstance()->update( array('d_coord_lat' => $lat ,'d_coord_long' => $lng) , array('fk_i_item_id' => $itemId) );
+
 }
 
 /**
