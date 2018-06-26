@@ -66,7 +66,7 @@ function osm_insert_geo_location($item) {
 /**
  * debug function | embed into footer.php
  * <!-- OpenStreetMap Debug -->
- * <?php osm_debug(osc_item_id()); ?>
+ * <?php osm_debug(osc_item()); ?>
  */
 function osm_debug($item = array()) {
 
@@ -125,6 +125,7 @@ function osm_debug($item = array()) {
 		echo '</pre>';
 
 	}
+
 }
 
 // Activate Plugin
