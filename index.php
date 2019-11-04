@@ -13,10 +13,10 @@ Plugin update URI: openstreetmaps
 const MAPQUEST_API_KEY = 'you_public_key_here';
 
 // OpenStreetMap CSS
-osc_enqueue_style('leaflet', osc_base_url() . 'oc-content/plugins/open_street_maps/css/leaflet.css');
+osc_enqueue_style('leaflet', osc_base_url() . 'oc-content/plugins/open_street_maps-master/css/leaflet.css');
 
 // OpenStreetMap JavaScript
-osc_register_script('leaflet', osc_base_url() . 'oc-content/plugins/open_street_maps/js/leaflet.js');
+osc_register_script('leaflet', osc_base_url() . 'oc-content/plugins/open_street_maps-master/js/leaflet.js');
 osc_enqueue_script('leaflet');
 
 function osm_maps_location() {
